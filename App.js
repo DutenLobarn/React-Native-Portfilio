@@ -4,11 +4,18 @@ import { StyleSheet, Text, View } from "react-native";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Mandus portfolio1111</Text>
+      <Text style={h1.h1}>Mandus portfolio snygg</Text>
       <StatusBar style="auto" />
     </View>
   );
 }
+
+
+const h1 = StyleSheet.create({
+  h1: {
+    fontSize: 20,
+  },
+});
 
 const styles = StyleSheet.create({
   container: {
