@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Mandus portfolio22</Text>
+      <Text>Mandus portfolio</Text>
       <StatusBar style="auto" />
     </View>
   );
