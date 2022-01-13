@@ -15,7 +15,6 @@
       "type": "reactnative",
       "request": "attach",
       "name": "Attach to packager",
-      "url": "http://localhost:8080",
       "cwd": "${workspaceFolder}"
     }
   ]

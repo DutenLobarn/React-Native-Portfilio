@@ -3,13 +3,16 @@ import { StyleSheet, Text, View } from "react-native";
 
 export default function App() {
 
+
+
   return (
     <View style={styles.container}>
-      <Text style={styles.h1}>Mandus portfolio hello world</Text>
+      <Text style={styles.h1}>Mandus portfolio hello </Text>
       <StatusBar style="auto" />
     </View>
   );
 }
+
 
 const styles = StyleSheet.create({
   container: {
